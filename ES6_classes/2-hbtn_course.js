@@ -1,5 +1,4 @@
-export default HolbertonCourse;
-class HolbertonCourse {
+export default class HolbertonCourse {
     constructor(name, length, students) {
         this._name = name;
         this._length = length;

@@ -12,11 +12,8 @@ export default class HolbertonCourse {
 
     // Setter for the name attribute
     set name(newName) {
-        if (typeof newName === 'string') {
-            this._name = newName;
-        } else {
-            throw new Error('Name must be a string');
-        }
+        if (typeof newName !== 'string') throw Error('Name must be a string');
+        this._name = newName;
     }
 
     // getter for the length attribute
@@ -26,11 +23,7 @@ export default class HolbertonCourse {
 
     // Setter for the length attribute
     set length(newLength) {
-        if (typeof newLength === 'number') {
-            this._length = newLength;
-        } else {
-            throw new Error('Length must be a number');
-        }
+       if (typeof newLength !== 'number') throw Error('Length must be a number');
     }
 
     // Getter for the students attribute

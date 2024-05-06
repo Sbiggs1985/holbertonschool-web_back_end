@@ -13,3 +13,10 @@ Caching
 <hr>
 A technique used to improve the performance of applications by storing frequently accessed data in memory or some other fast storage, reducing the need to recompute or reload data.
 In Python, caching can be achieved in several ways, depending on the specific needs and contexts. Here are some common caching strategies in Python.
+<ul>
+  <li>Function-Level Caching</li>
+  <li>Class-Level Caching</li>
+  <li>Caching with External Libraries</li>
+  <li>Django Caching</li>
+  <li>Flask Caching</li>
+</ul>

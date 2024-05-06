@@ -1,4 +1,4 @@
-Caching
+<h1>Caching</h1>
 <hr>
 <ul>
   <li>What a caching system is</li>
